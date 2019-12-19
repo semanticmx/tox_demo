@@ -23,10 +23,20 @@ Tox Demo - pyTol Dic 2019
 * Documentation: https://tox-demo.readthedocs.io.
 
 
-Features
+Running demo
 --------
 
-* TODO
+$ pip install tox
+
+$ pip install tox-pyenv
+
+$ pyenv install 3.5.6
+
+$ pyenv local 3.5.6 3.6.6 3.7.0
+
+$ tox
+
+$ tox -e py36
 
 Credits
 -------
